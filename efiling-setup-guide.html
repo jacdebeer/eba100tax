@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eFiling Setup Guide - Elevate Business Academy</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2E86C1;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .logo {
+            background: #2E86C1;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            color: #1C2237;
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        
+        .subtitle {
+            color: #777;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #2E86C1;
+            font-size: 20px;
+            margin: 25px 0 15px 0;
+            font-weight: 700;
+            border-left: 4px solid #D4AF37;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #1C2237;
+            font-size: 16px;
+            margin: 20px 0 10px 0;
+            font-weight: 600;
+        }
+        
+        .checklist {
+            background: #F8F6F3;
+            border: 1px solid #D4AF37;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin: 10px 0;
+            padding: 8px;
+        }
+        
+        .checkbox {
+            width: 18px;
+            height: 18px;
+            border: 2px solid #2E86C1;
+            border-radius: 3px;
+            margin-right: 12px;
+            margin-top: 2px;
+            flex-shrink: 0;
+        }
+        
+        .important-box {
+            background: #E74C3C10;
+            border: 2px solid #E74C3C;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .important-box h3 {
+            color: #E74C3C;
+            margin-top: 0;
+        }
+        
+        .tip-box {
+            background: #4CAF5010;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .tip-box h3 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+        
+        .step {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .step-number {
+            background: #2E86C1;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        
+        .screenshot-placeholder {
+            background: #f0f0f0;
+            border: 2px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 15px 0;
+            border-radius: 8px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .footer {
+            text-align: center;
+            border-top: 2px solid #2E86C1;
+            padding-top: 20px;
+            margin-top: 40px;
+            color: #777;
+            font-size: 14px;
+        }
+        
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .feature-box {
+            background: #2E86C110;
+            border: 2px solid #2E86C1;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 15mm;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">💻 Elevate Business Academy</div>
+        <h1>eFiling Setup Guide</h1>
+        <div class="subtitle">Complete Guide to SARS eFiling System Setup and Navigation</div>
+        <div class="subtitle"><strong>Updated for 2025 | Version 1.0</strong></div>
+    </div>
+
+    <h2>🌐 Overview</h2>
+    <p>SARS eFiling is the official online platform for submitting tax returns, making payments, and managing your tax affairs. This guide provides step-by-step instructions for setting up and using the eFiling system effectively.</p>
+
+    <div class="feature-box">
+        <h3>🆕 New in 2025: Express Access</h3>
+        <p>SARS has introduced Express Access for faster login and streamlined filing. This guide covers both traditional and Express Access methods.</p>
+    </div>
+
+    <h2>🛠️ System Requirements</h2>
+    <div class="checklist">
+        <h3>✅ Before You Begin</h3>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div><strong>Internet Connection:</strong> Stable broadband connection recommended</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div><strong>Browser:</strong> Chrome 90+, Firefox 88+, Safari 14+, or Edge 88+</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div><strong>Pop-up Blocker:</strong> Disable for sarsefiling.co.za</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div><strong>Mobile Device:</strong> For SMS verification and mobile app access</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div><strong>Email Account:</strong> Active email for notifications and correspondence</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div><strong>Tax Numbers:</strong> Income tax number, VAT number (if applicable)</div>
+        </div>
+    </div>
+
+    <h2>📱 Step 1: Initial Registration</h2>
+
+    <div class="step">
+        <h3><span class="step-number">1</span>Access the eFiling Website</h3>
+        <ul>
+            <li>Navigate to: <strong>www.sarsefiling.co.za</strong></li>
+            <li>Click on "Register for eFiling" button</li>
+            <li>Select your entity type: Individual, Business, or Tax Practitioner</li>
+        </ul>
+        <div class="screenshot-placeholder">
+            [Screenshot: SARS eFiling homepage with Register button highlighted]
+        </div>
+    </div>
+
+    <div class="step">
+        <h3><span class="step-number">2</span>Complete Personal Information</h3>
+        <ul>
+            <li><strong>ID Number/Passport:</strong> Enter your South African ID or passport number</li>
+            <li><strong>Full Names:</strong> Must match your ID document exactly</li>
+            <li><strong>Date of Birth:</strong> Use DD/MM/YYYY format</li>
+            <li><strong>Contact Details:</strong> Active phone number and email address</li>
+            <li><strong>Postal Address:</strong> Where SARS correspondence should be sent</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3><span class="step-number">3</span>Set Up Security Credentials</h3>
+        <ul>
+            <li><strong>Username:</strong> Choose a memorable username (8-20 characters)</li>
+            <li><strong>Password:</strong> Must be 8+ characters with uppercase, lowercase, numbers</li>
+            <li><strong>Security Questions:</strong> Choose 3 questions with memorable answers</li>
+            <li><strong>PIN:</strong> 5-digit numeric PIN for additional security</li>
+        </ul>
+        
+        <div class="important-box">
+            <h3>⚠️ Password Security Tips</h3>
+            <ul>
+                <li>Use a unique password not used elsewhere</li>
+                <li>Include special characters (@, #, $, etc.)</li>
+                <li>Avoid personal information (birthdate, phone number)</li>
+                <li>Store securely - don't share with anyone</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step">
+        <h3><span class="step-number">4</span>Link Tax Numbers</h3>
+        <ul>
+            <li>Enter your Income Tax reference number</li>
+            <li>Add VAT number if registered for VAT</li>
+            <li>Include PAYE number if you have employees</li>
+            <li>Verify all numbers are correct before proceeding</li>
+        </ul>
+    </div>
+
+    <h2>🔐 Step 2: Two-Factor Authentication Setup</h2>
+
+    <div class="step">
+        <h3><span class="step-number">1</span>Enable SMS Authentication</h3>
+        <ul>
+            <li>Verify your mobile number with OTP</li>
+            <li>Choose SMS as your preferred 2FA method</li>
+            <li>Test the SMS functionality</li>
+            <li>Add backup phone number if available</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3><span class="step-number">2</span>Set Up Email Verification</h3>
+        <ul>
+            <li>Check your email for verification link</li>
+            <li>Click the verification link within 24 hours</li>
+            <li>Confirm email address is active and monitored</li>
+            <li>Add SARS email to your safe senders list</li>
+        </ul>
+    </div>
+
+    <div class="feature-box">
+        <h3>💡 Express Access (New 2025 Feature)</h3>
+        <p>Express Access allows faster login using biometric authentication on supported devices:</p>
+        <ul>
+            <li>Enable fingerprint or face recognition</li>
+            <li>Requires one-time setup with standard credentials</li>
+            <li>Available on SARS MobiApp and supported browsers</li>
+            <li>Reduces login time from 2-3 minutes to 10-15 seconds</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <h2>📱 Step 3: SARS MobiApp Installation</h2>
+
+    <div class="step">
+        <h3><span class="step-number">1</span>Download the App</h3>
+        <ul>
+            <li><strong>Android:</strong> Download from Google Play Store</li>
+            <li><strong>iOS:</strong> Download from Apple App Store</li>
+            <li>Search for "SARS MobiApp" (official app)</li>
+            <li>Verify publisher is "South African Revenue Service"</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3><span class="step-number">2</span>Link App to eFiling Account</h3>
+        <ul>
+            <li>Open the app and select "Link to eFiling"</li>
+            <li>Enter your eFiling username and password</li>
+            <li>Complete SMS verification</li>
+            <li>Set up app-specific PIN or biometric login</li>
+        </ul>
+    </div>
+
+    <h2>🏠 Step 4: eFiling Dashboard Navigation</h2>
+
+    <div class="step">
+        <h3><span class="step-number">1</span>Dashboard Overview</h3>
+        <p>Your eFiling dashboard provides access to:</p>
+        <ul>
+            <li><strong>Returns:</strong> Submit and view tax returns</li>
+            <li><strong>Payments:</strong> Make payments and view payment history</li>
+            <li><strong>Statements:</strong> Download statements of account</li>
+            <li><strong>Work Online:</strong> Access forms and submissions</li>
+            <li><strong>Correspondence:</strong> View SARS messages and notices</li>
+            <li><strong>Disputes:</strong> Lodge disputes and objections</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3><span class="step-number">2</span>Key Features Navigation</h3>
+        
+        <h4>Returns Section</h4>
+        <ul>
+            <li>Income Tax Returns (ITR12, ITR14)</li>
+            <li>VAT Returns (VAT201)</li>
+            <li>PAYE Returns (EMP201, EMP501)</li>
+            <li>Import/Export declarations</li>
+        </ul>
+        
+        <h4>Work Online Features</h4>
+        <ul>
+            <li>Request for tax clearance certificates</li>
+            <li>Update contact and banking details</li>
+            <li>Register for additional tax types</li>
+            <li>Submit supporting documents</li>
+        </ul>
+    </div>
+
+    <h2>⚙️ Step 5: Essential Settings Configuration</h2>
+
+    <div class="step">
+        <h3><span class="step-number">1</span>Profile Settings</h3>
+        <ul>
+            <li><strong>Personal Details:</strong> Keep contact information current</li>
+            <li><strong>Banking Details:</strong> Update bank account for refunds</li>
+            <li><strong>Correspondence Address:</strong> Ensure accurate postal address</li>
+            <li><strong>Representative Details:</strong> Add tax practitioner if applicable</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h3><span class="step-number">2</span>Notification Preferences</h3>
+        <ul>
+            <li>Enable email notifications for important updates</li>
+            <li>Set SMS alerts for deadlines and assessments</li>
+            <li>Subscribe to filing season reminders</li>
+            <li>Configure correspondence delivery preferences</li>
+        </ul>
+    </div>
+
+    <h2>📊 Common eFiling Tasks</h2>
+
+    <div class="tip-box">
+        <h3>💡 Essential eFiling Functions</h3>
+        
+        <h4>Filing Tax Returns</h4>
+        <ul>
+            <li>Auto-assessment vs. manual filing</li>
+            <li>Uploading supporting documents</li>
+            <li>Tracking return status</li>
+            <li>Receiving assessments</li>
+        </ul>
+        
+        <h4>Making Payments</h4>
+        <ul>
+            <li>EFT payments through eFiling</li>
+            <li>Payment reference generation</li>
+            <li>Payment confirmation uploads</li>
+            <li>Installment arrangements</li>
+        </ul>
+        
+        <h4>Account Management</h4>
+        <ul>
+            <li>Viewing statements of account</li>
+            <li>Downloading tax clearance certificates</li>
+            <li>Updating business information</li>
+            <li>Correspondence management</li>
+        </ul>
+    </div>
+
+    <h2>🔧 Troubleshooting Common Issues</h2>
+
+    <div class="important-box">
+        <h3>⚠️ Common Problems & Solutions</h3>
+        
+        <h4>Login Issues</h4>
+        <ul>
+            <li><strong>Forgotten password:</strong> Use "Forgot Password" function</li>
+            <li><strong>Account locked:</strong> Contact SARS support after 3 failed attempts</li>
+            <li><strong>SMS not received:</strong> Check network coverage, try alternative number</li>
+        </ul>
+        
+        <h4>Technical Problems</h4>
+        <ul>
+            <li><strong>Browser compatibility:</strong> Clear cache, try different browser</li>
+            <li><strong>Session timeout:</strong> Save work frequently, extend session when prompted</li>
+            <li><strong>File upload errors:</strong> Check file size (max 5MB) and format</li>
+        </ul>
+        
+        <h4>Account Issues</h4>
+        <ul>
+            <li><strong>Missing tax numbers:</strong> Contact SARS to link additional numbers</li>
+            <li><strong>Incorrect information:</strong> Use "Update Details" function</li>
+            <li><strong>Representative access:</strong> Complete appointment forms</li>
+        </ul>
+    </div>
+
+    <h2>🛡️ Security Best Practices</h2>
+
+    <div class="checklist">
+        <h3>✅ eFiling Security Checklist</h3>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div>Always log out completely when finished</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div>Never access eFiling from public computers</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div>Use secure, private internet connections</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div>Update passwords regularly (every 6 months)</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div>Monitor account for unauthorized activity</div>
+        </div>
+        <div class="checklist-item">
+            <div class="checkbox"></div>
+            <div>Keep contact details current for security alerts</div>
+        </div>
+    </div>
+
+    <h2>📞 Support & Help</h2>
+    <div class="tip-box">
+        <h3>Getting eFiling Assistance</h3>
+        <ul>
+            <li><strong>eFiling Help:</strong> Built-in help section within the platform</li>
+            <li><strong>SARS Contact Centre:</strong> 0800 00 SARS (0800 007 277)</li>
+            <li><strong>Technical Support:</strong> Available Monday-Friday, 8:00-16:30</li>
+            <li><strong>Online Chat:</strong> Available during business hours</li>
+            <li><strong>Video Tutorials:</strong> SARS YouTube channel</li>
+            <li><strong>User Manuals:</strong> Download from SARS website</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p><strong>Elevate Business Academy</strong> | Phone: 066 233 9960 | Email: info@ebac.co.za</p>
+        <p>This guide is accurate as of July 2025. For the most current information, always consult SARS directly.</p>
+        <p><em>© 2025 Elevate Business Academy. All rights reserved.</em></p>
+    </div>
+</body>
+</html>
